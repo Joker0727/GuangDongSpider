@@ -95,7 +95,7 @@ namespace GuangDongSpider
         }
         public bool ToGrantAuthorization(string workId)
         {
-            string conStr = "Data Source=111.230.149.80;Initial Catalog=MyDB;Integrated Security=False;User ID=sa;Password=1add1&one;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            string conStr = "Data Source=;Initial Catalog=MyDB;Integrated Security=False;User ID=sa;Password=;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
 
             string sqlStr = "SELECT dbo.MyWork.PassState FROM dbo.MyWork WHERE dbo.MyWork.WorkId = '" + workId + "'";
 
